@@ -29,3 +29,9 @@ The SQL queries used to inspect and perform quality checks can be found [here](h
 MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
 
 <img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/EDB1.png" alt="ED1" width="800" height="800"/>
+
+Prior to beginning the analysis, a series of data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, while potential outliers and anomalies were identified and flagged for further review.
+
+<img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/Issue_log.png" alt="Issue_log" width="800" height="900"/>
+
+<img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/Flagged.png" alt="Flagged" width="700" height="500"/>
