@@ -20,6 +20,6 @@ An interactive Tableau Dashboard can be found here
 
 Targeted SQL Queries regarding various business questions can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/SQL_CRM_Pipeline_Analysis.sql)
 
-The SQL queries used to inspect and perform quality checks can be found here
+The SQL queries used to inspect and perform quality checks can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/Exploratory%20Data%20Analysis.sql)
 
 # Data Structure & Initial Checks
