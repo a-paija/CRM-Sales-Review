@@ -30,8 +30,10 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 
 <img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/EDB1.png" alt="ED1" width="800" height="800"/>
 
+---
+
 Prior to beginning the analysis, a series of data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, while potential outliers and anomalies were identified and flagged for further review.
 
 <img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/Issue_log.png" alt="Issue_log" width="800" height="900"/>
 
-<img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/Flagged.png" alt="Flagged" width="700" height="500"/>
+<img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/Flagged.png" alt="Flagged" width="400" height="500"/>
