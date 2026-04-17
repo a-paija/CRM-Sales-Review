@@ -15,3 +15,11 @@ Insights and recommendations are provided on the following key areas:
 • Deal Efficiency Analysis: Examination of deal duration and sales cycle efficiency, particularly for successfully closed (Won) deals.
 
 • Time-Based Trends: Analysis of deal closures over time to identify patterns, seasonality, and performance fluctuations.
+
+An interactive Tableau Dashboard can be found here
+
+Targeted SQL Queries regarding various business questions can be found here
+
+The SQL queries used to inspect and perform quality checks can be found here
+
+# Data Structure & Initial Checks
