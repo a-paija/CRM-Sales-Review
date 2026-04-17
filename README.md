@@ -28,7 +28,7 @@ The SQL queries used to inspect and perform quality checks can be found [here](h
 
 MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
 
-<img src="images/EDB1.png" alt="ED1" width="800" height="800"/>
+<img src="images/EDB1.png" alt="ED1" width="750" height="700"/>
 
 ---
 
