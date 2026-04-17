@@ -1,20 +1,22 @@
-# Project Background
+# 📊 Project Background
 
-The CRM Sales Pipeline dataset represents a B2B sales environment where this company manages customer opportunities through various stages of the sales funnel, from initial prospecting to final deal closure.
+MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, limiting its ability to extract meaningful insights and make data-driven decisions.
 
-The organization collects large volumes of data on its sales activities, including deal stages, revenue, sales agents, managers, product offerings, and timelines. However, this data has been largely underutilized and lacks structured analysis to support decision-making. This project focuses on transforming raw CRM pipeline data into meaningful insights that can improve sales performance and operational efficiency.
+The dataset used in this project consists of CRM records from October 2016 to December 2017. It includes detailed information on sales opportunities, such as product type, customer accounts, deal stages, assigned sales representatives, and whether each opportunity was ultimately won or lost. This project focuses on analyzing and structuring this data to uncover actionable insights that can improve sales performance and pipeline efficiency.
 
 Insights and recommendations are provided on the following key areas:
 
-• Sales Pipeline Health: Analysis of deal distribution across pipeline stages (Prospecting, Engaging, Won, Lost) to evaluate funnel balance and identify bottlenecks.
+• Sales Pipeline Health: Evaluation of how opportunities are distributed across different stages to identify inefficiencies and bottlenecks in the sales funnel.
 
-• Win Rate & Conversion Performance: Measurement of sales effectiveness through win rate calculations and conversion trends across agents and managers.
+• Win Rate & Conversion Performance: Analysis of deal outcomes to measure sales effectiveness and identify factors influencing successful conversions.
 
-• Revenue & Sales Performance: Evaluation of total revenue contribution and average deal value by sales agents, managers, and product categories.
+• Revenue & Sales Performance: Breakdown of revenue generation and average deal value across sales agents, managers, and product categories.
 
-• Deal Efficiency Analysis: Examination of deal duration and sales cycle efficiency, particularly for successfully closed (Won) deals.
+• Deal Efficiency Analysis: Assessment of sales cycle duration to understand how quickly deals are being closed and where delays occur.
 
-• Time-Based Trends: Analysis of deal closures over time to identify patterns, seasonality, and performance fluctuations.
+• Time-Based Trends: Examination of deal activity over time to identify patterns, seasonality, and shifts in sales performance.
+
+---
 
 An interactive Tableau Dashboard can be found here
 
@@ -22,4 +24,8 @@ Targeted SQL Queries regarding various business questions can be found [here](ht
 
 The SQL queries used to inspect and perform quality checks can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/Exploratory%20Data%20Analysis.sql)
 
-# Data Structure & Initial Checks
+# 🗂️ Data Structure & Initial Checks
+
+MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
+
+<img src="https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/images/EDB1.png" alt="ED1"/>
