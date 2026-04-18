@@ -49,3 +49,7 @@ Imputing fields like product or account names would require unsupported guesses 
 Given the analytical focus of this project, priority was placed on data integrity over data completeness. As a result, records with missing critical fields were either excluded from specific analyses (e.g., revenue calculations) or retained only where their inclusion would not compromise accuracy.
 
 This approach ensures that all findings and insights are grounded in verifiable data, providing a more trustworthy foundation for evaluating sales performance and pipeline efficiency.
+
+## Executive Summary
+
+Overview findings
