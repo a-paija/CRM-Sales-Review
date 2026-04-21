@@ -39,7 +39,7 @@ Specifically, this project seeks to:
 
 MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
 
-<img src="images/EDB1.png" alt="ED1" width="600" height="500"/>
+<img src="images/EDB1.png" alt="ED1" width="500" height="450"/>
 
 ---
 
@@ -47,9 +47,9 @@ Prior to beginning the analysis, a series of data quality checks were conducted 
 
 Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis.
 
-<img src="images/Issues_log.png" alt="Issue_log" width="850" height="950"/>
+<img src="images/Issues_log.png" alt="Issue_log" width="750" height="850"/>
 
-<img src="images/Flagged_Row.png" alt="Flagged" width="550" height="450"/>
+<img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
 
 ## 🚫 Handling Missing & Incomplete Data
 
