@@ -1,20 +1,15 @@
 # 📊 Project Background
 
-MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, limiting its ability to extract meaningful insights and make data-driven decisions.
+MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, making it difficult to evaluate sales performance and identify areas for improvement.
 
-The dataset used in this project consists of CRM records from October 2016 to December 2017. It includes detailed information on sales opportunities, such as product type, customer accounts, deal stages, assigned sales representatives, and whether each opportunity was ultimately won or lost. This project focuses on analyzing and structuring this data to uncover actionable insights that can improve sales performance and pipeline efficiency.
+The dataset used in this project consists of CRM records from October 2016 to December 2017, containing detailed information on sales opportunities, including deal stages, product categories, account information, sales ownership, and deal outcomes (Won or Lost).
 
-Insights and recommendations are provided on the following key areas:
+Without structured analysis, MavenTech is unable to answer critical business questions such as:
+-  Where deals are getting stuck in the pipeline
+- Which sales agents or products are driving revenue
+- How effectively opportunities are being converted into closed deals
 
-• Sales Pipeline Health: Evaluation of how opportunities are distributed across different stages to identify inefficiencies and bottlenecks in the sales funnel.
-
-• Win Rate & Conversion Performance: Analysis of deal outcomes to measure sales effectiveness and identify factors influencing successful conversions.
-
-• Revenue & Sales Performance: Breakdown of revenue generation and average deal value across sales agents, managers, and product categories.
-
-• Deal Efficiency Analysis: Assessment of sales cycle duration to understand how quickly deals are being closed and where delays occur.
-
-• Time-Based Trends: Examination of deal activity over time to identify patterns, seasonality, and shifts in sales performance.
+This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency.
 
 ---
 
