@@ -32,7 +32,7 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 
 ---
 
-Prior to beginning the analysis, a series of data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, while potential outliers and anomalies were identified and flagged for further review.
+Prior to beginning the analysis, a series of data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
 Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis.
 
