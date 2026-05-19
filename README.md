@@ -62,4 +62,127 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 ## Executive Summary
 
-Overview findings
+### 🌍 Regional Sales Performance
+
+![Regional Dashboard](./assets/regional_dashboard.png)
+
+| Region  | Revenue | Key Insight |
+|--------|--------|------------|
+| West   | $3.56M | Highest total revenue |
+| Central| $3.32M | Highest deal volume (1,629 deals) |
+| East   | $3.08M | Highest avg deal size ($2,637) |
+
+**Insight:**  
+Revenue is driven by different strategies:
+- West = scale  
+- Central = volume (efficiency challenges)  
+- East = premium deal potential  
+
+👉 **Opportunity:** Scale East region performance to increase high-value revenue.
+
+---
+
+### 💰 Product Performance & Pricing Strategy
+
+![Product Dashboard](./assets/product_dashboard.png)
+
+#### Revenue Leaders
+
+| Product        | Revenue |
+|---------------|--------|
+| GTX Pro       | $3.46M |
+| GTX Plus Pro  | $2.62M |
+| MG Advanced   | $2.21M |
+
+These account for **~83% of total revenue**
+
+---
+
+#### Pricing Power & Discounting
+
+| Product          | Pricing Behavior |
+|------------------|-----------------|
+| GTX Plus Pro     | +$7 above list price |
+| GTX Pro          | Near list price |
+| MG Advanced      | Near list price |
+| GTX Plus Basic   | -$15.89 deviation |
+| GTK 500          | -$60.53 deviation |
+
+**Insight:**  
+- Premium products maintain pricing integrity  
+- Lower-tier and high-ticket products rely on discounting → margin risk  
+
+---
+
+### ⚠️ Revenue Leakage (Missed Opportunities)
+
+| Product        | Lost Revenue |
+|---------------|-------------|
+| GTX Pro       | ~$2.0M |
+| MG Advanced   | ~$1.46M |
+| GTX Plus Pro  | ~$1.46M |
+
+**Total Identified Lost Revenue: ~$5.9M**
+
+**Insight:**  
+Revenue loss is concentrated in the **same products driving revenue**
+
+👉 This is not a product issue—it is an **execution and conversion problem**
+
+---
+
+### ⏱️ Sales Cycle Efficiency
+
+| Duration   | Win Rate |
+|------------|----------|
+| <30 days   | 57.4% |
+| 30–60 days | 66.3% |
+| 60–90 days | 66.7% |
+| 90+ days   | 70.9% |
+
+**Insight:**  
+- Longer deals close at significantly higher rates  
+- Short-cycle deals are less effective  
+
+👉 Indicates better qualification and relationship-building in longer cycles  
+
+---
+
+### 🧠 Sales Agent Performance (Advanced Scoring Model)
+
+| Rank | Agent Name         | Score |
+|------|------------------|------|
+| 1    | Darcel Schlecht  | 0.841 |
+| 2    | James Ascencio   | 0.729 |
+| 3    | Corliss Cosme    | 0.708 |
+| 4    | Reed Clapper     | 0.705 |
+| 5    | Maureen Marcano  | 0.701 |
+
+**Insight:**  
+Top performers are defined by **balanced performance**, not just revenue.
+
+👉 This model corrects for:
+- Small sample bias  
+- Over-reliance on volume metrics  
+
+---
+
+## 🔗 SQL Queries (Click to Expand)
+
+<details>
+<summary><strong>View SQL Code</strong></summary>
+
+---
+
+### 🧮 Revenue by Region
+
+```sql
+SELECT 
+    region,
+    SUM(revenue) AS total_revenue,
+    COUNT(deal_id) AS total_deals,
+    AVG(revenue) AS avg_deal_size
+FROM sales_data
+GROUP BY region
+ORDER BY total_revenue DESC;
+
