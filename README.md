@@ -62,127 +62,171 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 ## Executive Summary
 
-### 🌍 Regional Sales Performance
-
-![Regional Dashboard](./assets/regional_dashboard.png)
-
-| Region  | Revenue | Key Insight |
-|--------|--------|------------|
-| West   | $3.56M | Highest total revenue |
-| Central| $3.32M | Highest deal volume (1,629 deals) |
-| East   | $3.08M | Highest avg deal size ($2,637) |
-
-**Insight:**  
-Revenue is driven by different strategies:
-- West = scale  
-- Central = volume (efficiency challenges)  
-- East = premium deal potential  
-
-👉 **Opportunity:** Scale East region performance to increase high-value revenue.
+# 📊 MavenTech Sales Analytics Project
 
 ---
 
-### 💰 Product Performance & Pricing Strategy
+## 📊 Executive Analysis
 
-![Product Dashboard](./assets/product_dashboard.png)
+This analysis evaluates MavenTech’s sales pipeline to understand revenue performance, pricing effectiveness, and sales execution across products, regions, and sales agents.
 
-#### Revenue Leaders
-
-| Product        | Revenue |
-|---------------|--------|
-| GTX Pro       | $3.46M |
-| GTX Plus Pro  | $2.62M |
-| MG Advanced   | $2.21M |
-
-These account for **~83% of total revenue**
+MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline. However, deeper analysis reveals that performance is uneven across regions, highly concentrated in a few products, and significantly impacted by conversion inefficiencies and pricing inconsistencies.
 
 ---
 
-#### Pricing Power & Discounting
+## 🌍 Regional Performance Insights
 
-| Product          | Pricing Behavior |
-|------------------|-----------------|
-| GTX Plus Pro     | +$7 above list price |
-| GTX Pro          | Near list price |
-| MG Advanced      | Near list price |
-| GTX Plus Basic   | -$15.89 deviation |
-| GTK 500          | -$60.53 deviation |
+Revenue distribution across regions is relatively balanced, with the **West leading at $3.56M**, followed by the **Central region at $3.32M**, and the **East at $3.08M**.
 
-**Insight:**  
-- Premium products maintain pricing integrity  
-- Lower-tier and high-ticket products rely on discounting → margin risk  
+However, each region exhibits a different performance dynamic:
 
----
+- The **West** is driven by overall revenue scale  
+- The **Central region** leads in deal volume but underperforms in efficiency  
+- The **East region** delivers the **highest average deal size (~$2,637)**  
 
-### ⚠️ Revenue Leakage (Missed Opportunities)
+This suggests that while total revenue is similar, the **quality of deals varies significantly**, with the East showing strong potential for high-value sales.
 
-| Product        | Lost Revenue |
-|---------------|-------------|
-| GTX Pro       | ~$2.0M |
-| MG Advanced   | ~$1.46M |
-| GTX Plus Pro  | ~$1.46M |
-
-**Total Identified Lost Revenue: ~$5.9M**
-
-**Insight:**  
-Revenue loss is concentrated in the **same products driving revenue**
-
-👉 This is not a product issue—it is an **execution and conversion problem**
+**Key takeaway:**  
+Growth should not focus equally across regions—there is a clear opportunity to **scale high-value deal strategies from the East region**.
 
 ---
 
-### ⏱️ Sales Cycle Efficiency
+## 💰 Product Performance & Revenue Concentration
 
-| Duration   | Win Rate |
-|------------|----------|
-| <30 days   | 57.4% |
-| 30–60 days | 66.3% |
-| 60–90 days | 66.7% |
-| 90+ days   | 70.9% |
+Revenue is heavily concentrated in three products:
 
-**Insight:**  
-- Longer deals close at significantly higher rates  
-- Short-cycle deals are less effective  
+- **GTX Pro (~$3.46M)**  
+- **GTX Plus Pro (~$2.62M)**  
+- **MG Advanced (~$2.21M)**  
 
-👉 Indicates better qualification and relationship-building in longer cycles  
+Together, these products account for approximately **83% of total revenue**, indicating a strong reliance on a narrow product set.
 
----
+While this concentration reflects strong product-market fit at the top end, it also introduces **portfolio risk** and limits diversification.
 
-### 🧠 Sales Agent Performance (Advanced Scoring Model)
-
-| Rank | Agent Name         | Score |
-|------|------------------|------|
-| 1    | Darcel Schlecht  | 0.841 |
-| 2    | James Ascencio   | 0.729 |
-| 3    | Corliss Cosme    | 0.708 |
-| 4    | Reed Clapper     | 0.705 |
-| 5    | Maureen Marcano  | 0.701 |
-
-**Insight:**  
-Top performers are defined by **balanced performance**, not just revenue.
-
-👉 This model corrects for:
-- Small sample bias  
-- Over-reliance on volume metrics  
+**Key takeaway:**  
+MavenTech’s growth is disproportionately dependent on a small number of high-performing products.
 
 ---
 
-## 🔗 SQL Queries (Click to Expand)
+## ⚠️ Revenue Leakage & Conversion Gaps
 
-<details>
-<summary><strong>View SQL Code</strong></summary>
+Despite strong revenue generation, the business is losing approximately **$5.9M in potential revenue**, primarily from the same top-performing products:
+
+- GTX Pro alone accounts for **~$2.0M in lost revenue**  
+- MG Advanced and GTX Plus Pro each contribute **~$1.46M in losses**
+
+This indicates that **demand is not the issue**—instead, the business is failing to convert high-value opportunities.
+
+**Key takeaway:**  
+The core problem is not pipeline generation, but **conversion inefficiency in high-value deals**.
+
+Even a modest **10% improvement in conversion rates** across these products could yield an estimated **$600K+ in incremental revenue**.
 
 ---
 
-### 🧮 Revenue by Region
+## 💸 Pricing Strategy & Discounting Behavior
 
-```sql
-SELECT 
-    region,
-    SUM(revenue) AS total_revenue,
-    COUNT(deal_id) AS total_deals,
-    AVG(revenue) AS avg_deal_size
-FROM sales_data
-GROUP BY region
-ORDER BY total_revenue DESC;
+Pricing analysis reveals a clear segmentation between premium and lower-tier products:
 
+- **Premium products (e.g., GTX Plus Pro)** maintain strong pricing power, even selling **above list price (~+$7)**  
+- Core products (GTX Pro, MG Advanced) remain stable and close to list price  
+- Lower-tier and high-ticket products rely heavily on discounting:
+  - GTX Plus Basic: **~-$15.89 below list price**  
+  - GTK 500: **~-$60.53 below list price**
+
+This indicates inconsistent pricing discipline and potential margin erosion in certain segments.
+
+**Key takeaway:**  
+- Strong pricing power exists—but is not consistently leveraged  
+- Discounting is being used as a substitute for effective sales execution  
+
+---
+
+## ⏱️ Sales Cycle Effectiveness
+
+Sales cycle duration has a direct relationship with success rates:
+
+- Deals under 30 days close at **~57.4% win rate**  
+- Deals between 30–90 days close at **~66–67%**  
+- Deals over 90 days achieve the highest win rate at **~70.9%**
+
+This suggests that **longer, more developed sales cycles lead to better outcomes**, likely due to improved qualification, relationship building, and deal maturity.
+
+**Key takeaway:**  
+Short sales cycles may be sacrificing deal quality for speed.
+
+---
+
+## 🧠 Sales Performance & Execution Quality
+
+A weighted performance model incorporating win rate, deal volume, and revenue highlights the importance of **balanced performance**.
+
+Top-performing agents consistently demonstrate:
+- Strong conversion rates  
+- High deal participation  
+- Sustainable revenue contribution  
+
+This approach avoids overvaluing agents who rely solely on volume or a few large deals.
+
+**Key takeaway:**  
+Sales success is driven by **consistency and efficiency**, not just output.
+
+---
+
+## 🔗 SQL + Dashboard Integration
+
+The dashboards provide a high-level view of performance trends, while SQL enables deeper diagnostic analysis.
+
+- Dashboards highlight **where performance varies**  
+- SQL explains **why those differences exist**  
+
+Together, they enable both **monitoring and decision-making**, bridging the gap between reporting and strategy.
+
+---
+
+## 🚀 Strategic Recommendations
+
+### 1. Improve Conversion on High-Value Products
+Focus on GTX Pro, MG Advanced, and GTX Plus Pro, where the largest revenue gaps exist.
+
+---
+
+### 2. Strengthen Pricing Discipline
+Reduce reliance on discounting in lower-tier products and reinforce value-based selling.
+
+---
+
+### 3. Scale High-Value Sales Strategies
+Replicate successful deal patterns from the East region across other regions.
+
+---
+
+### 4. Optimize Sales Cycle Management
+Encourage longer, more deliberate deal cycles for higher win rates and better outcomes.
+
+---
+
+### 5. Standardize Sales Performance Frameworks
+Adopt weighted performance metrics to improve coaching, evaluation, and team consistency.
+
+---
+
+## 🛠️ Tools & Techniques
+
+- SQL (CTEs, aggregations, window functions)  
+- Tableau / Power BI (dashboard development)  
+- Data modeling (performance scoring)  
+- Business analysis (revenue optimization)
+
+---
+
+## ✅ Final Takeaway
+
+MavenTech has a strong revenue foundation and healthy conversion rates, but its growth is constrained by:
+
+- Heavy reliance on a small number of products  
+- Significant revenue leakage (~$6M)  
+- Inconsistent pricing strategies  
+- Variability in sales execution  
+
+The largest opportunity lies not in increasing pipeline volume, but in **improving conversion efficiency, pricing discipline, and strategic focus on high-value opportunities**.
