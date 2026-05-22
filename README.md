@@ -107,9 +107,7 @@ Revenue is heavily concentrated in three products:
 - **GTX Plus Pro (~$2.62M)**  
 - **MG Advanced (~$2.21M)**  
 
-Together, these products account for approximately **83% of total revenue**, indicating a strong reliance on a narrow product set.
-
-While this concentration reflects strong product-market fit at the top end, it also introduces **portfolio risk** and limits diversification.
+Together, these products account for approximately **83% of total revenue**, indicating a strong reliance on a narrow product set. While this concentration reflects strong product-market fit at the top end, it also introduces **portfolio risk** and limits diversification.
 
 **Key takeaway:**  
 MavenTech’s growth is disproportionately dependent on a small number of high-performing products.
@@ -144,32 +142,24 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 - Strong pricing power exists—but is not consistently leveraged  
 - Discounting is being used as a substitute for effective sales execution  
 
-## ⏱️ Sales Cycle Effectiveness (SQL)
+## 🧠 Agent Sales Performance Score (SQL)
 
-Sales cycle duration has a direct relationship with success rates:
+A weighted performance model incorporating win rate, deal volume, and revenue reveals that **balanced execution—not just output—is the primary driver of sales success**. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
 
-- Deals under 30 days close at **~57.4% win rate**  
-- Deals between 30–90 days close at **~66–67%**  
-- Deals over 90 days achieve the highest win rate at **~70.9%**
+Top-performing agents (scores **~0.70–0.84**) consistently combine **strong win rates (0.63–0.70)** with above-average deal volume and revenue contribution. Notably, the highest performer (0.8413) does not have the highest win rate, but instead leads in **sales volume (6.32) and revenue score (8.09)**—reinforcing that performance is driven by a **balanced combination of efficiency and output**.
 
-This suggests that **longer, more developed sales cycles lead to better outcomes**, likely due to improved qualification, relationship building, and deal maturity.
+In contrast, lower-performing agents (scores **~0.25–0.50**) often maintain **comparable win rates (0.55–0.66)** but underperform in either **revenue generation or deal volume**, indicating that activity alone is insufficient without effective deal conversion and value capture.
 
-**Key takeaway:**  
-Short sales cycles may be sacrificing deal quality for speed.
+#### **Key Takeaway**
 
-## 🧠 Sales Performance & Execution Quality (SQL)
+Sales performance at MavenTech is not limited by win rate, but by the ability to **consistently convert opportunities into high-value revenue**. The most successful agents distinguish themselves through **balanced, efficient execution**, while underperformance is driven by gaps in translating activity into meaningful outcomes.
 
-A weighted performance model incorporating win rate, deal volume, and revenue highlights the importance of **balanced performance**.
+#### **Action:**
 
-Top-performing agents consistently demonstrate:
-- Strong conversion rates  
-- High deal participation  
-- Sustainable revenue contribution  
-
-This approach avoids overvaluing agents who rely solely on volume or a few large deals.
-
-**Key takeaway:**  
-Sales success is driven by **consistency and efficiency**, not just output.
+- Shift focus from pure activity metrics to **revenue efficiency and deal quality**  
+- Use top performers as benchmarks for **replicable sales behaviors and strategies**  
+- Identify mid- and low-tier performers with solid win rates but weak revenue as **high-impact coaching opportunities**  
+- Reinforce performance evaluation using **composite scoring models** rather than isolated KPIs  
 
 ## 🔗 SQL + Dashboard Integration
 
