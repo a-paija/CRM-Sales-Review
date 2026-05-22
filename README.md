@@ -70,6 +70,43 @@ Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visuali
 
 ---
 
+## 📈 Sales Trends & Revenue Momentum
+
+Monthly revenue trends show a generally stable performance with periods of fluctuation that highlight both growth opportunities and potential volatility in the pipeline.
+
+Revenue demonstrates a pattern of **inconsistent month-to-month performance**, suggesting that while overall annual revenue is strong (~$9.5M), it is not driven by steady growth but rather by **episodic spikes in deal closures**.
+
+These spikes are likely tied to:
+- Large enterprise deals closing  
+- End-of-period sales push behavior  
+- Concentration of high-value product sales  
+
+Conversely, lower-performing months indicate gaps in:
+- Pipeline consistency  
+- Deal flow distribution  
+- Sales forecasting accuracy  
+
+**Key Insights:**
+
+- Revenue is **not evenly distributed over time**, indicating dependency on specific deal cycles rather than a steady pipeline  
+- Periods of strong performance are not consistently sustained, suggesting **pipeline replenishment challenges**  
+- Variability in monthly revenue may impact **forecast reliability and planning accuracy**  
+
+---
+
+**Strategic Implications:**
+
+- Improve **pipeline consistency** to smooth revenue across months  
+- Strengthen **forecasting models** to better anticipate revenue fluctuations  
+- Reduce reliance on end-of-period deal spikes by promoting **continuous deal flow**  
+- Align sales incentives to encourage **consistent performance**, not just peak closures  
+
+---
+
+**Key Takeaway:**
+
+MavenTech’s revenue performance is strong overall, but the lack of consistent monthly growth highlights an opportunity to **stabilize pipeline generation and improve revenue predictability**.
+
 ## 🌍 Regional Performance Insights (SQL)
 
 Revenue distribution across regions is relatively balanced, with the **West leading at $3.56M**, followed by the **Central region at $3.32M**, and the **East at $3.08M**.
