@@ -64,7 +64,9 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline. However, deeper analysis reveals that performance is uneven across regions, highly concentrated in a few products and agents, and significantly impacted by conversion inefficiencies and pricing inconsistencies.
 
-<img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
+Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+
+<img src="images/Manager.png" alt="Flagged" width="750" height="850"/>
 
 ---
 
