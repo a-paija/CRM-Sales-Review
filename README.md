@@ -42,7 +42,7 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 <img src="images/EDB1.png" alt="ED1" width="500" height="450"/>
 
 ---
-
+# 📊 Data Cleaning (Excel)
 Before analysis, data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
 Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis.
@@ -70,7 +70,7 @@ Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visuali
 
 ---
 
-## 🌍 Regional Performance Insights
+## 🌍 Regional Performance Insights (SQL)
 
 Revenue distribution across regions is relatively balanced, with the **West leading at $3.56M**, followed by the **Central region at $3.32M**, and the **East at $3.08M**.
 
@@ -91,7 +91,7 @@ Growth should not focus equally across regions—there is a clear opportunity to
 
 Above is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
-## 💰 Product Performance & Revenue Concentration
+## 💰 Product Performance & Revenue Concentration (Tableau)
 
 Revenue is heavily concentrated in three products:
 
@@ -108,7 +108,7 @@ MavenTech’s growth is disproportionately dependent on a small number of high-p
 
 ---
 
-## ⚠️ Revenue Leakage & Conversion Gaps
+## ⚠️ Revenue Leakage & Conversion Gaps (SQL)
 
 Despite strong revenue generation, the business is losing approximately **$5.9M in potential revenue**, primarily from the same top-performing products:
 
@@ -124,7 +124,7 @@ Even a modest **10% improvement in conversion rates** across these products coul
 
 ---
 
-## 💸 Pricing Strategy & Discounting Behavior
+## 💸 Pricing Strategy & Discounting Behavior (SQL)
 
 Pricing analysis reveals a clear segmentation between premium and lower-tier products:
 
@@ -142,7 +142,7 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 
 ---
 
-## ⏱️ Sales Cycle Effectiveness
+## ⏱️ Sales Cycle Effectiveness (SQL)
 
 Sales cycle duration has a direct relationship with success rates:
 
@@ -157,7 +157,7 @@ Short sales cycles may be sacrificing deal quality for speed.
 
 ---
 
-## 🧠 Sales Performance & Execution Quality
+## 🧠 Sales Performance & Execution Quality (SQL)
 
 A weighted performance model incorporating win rate, deal volume, and revenue highlights the importance of **balanced performance**.
 
@@ -181,52 +181,3 @@ The dashboards provide a high-level view of performance trends, while SQL enable
 - SQL explains **why those differences exist**  
 
 Together, they enable both **monitoring and decision-making**, bridging the gap between reporting and strategy.
-
----
-
-## 🚀 Strategic Recommendations
-
-### 1. Improve Conversion on High-Value Products
-Focus on GTX Pro, MG Advanced, and GTX Plus Pro, where the largest revenue gaps exist.
-
----
-
-### 2. Strengthen Pricing Discipline
-Reduce reliance on discounting in lower-tier products and reinforce value-based selling.
-
----
-
-### 3. Scale High-Value Sales Strategies
-Replicate successful deal patterns from the East region across other regions.
-
----
-
-### 4. Optimize Sales Cycle Management
-Encourage longer, more deliberate deal cycles for higher win rates and better outcomes.
-
----
-
-### 5. Standardize Sales Performance Frameworks
-Adopt weighted performance metrics to improve coaching, evaluation, and team consistency.
-
----
-
-## 🛠️ Tools & Techniques
-
-- SQL (CTEs, aggregations, window functions)  
-- Tableau / Power BI (dashboard development)  
-- Data modeling (performance scoring)  
-- Business analysis (revenue optimization)
-
----
-
-## ✅ Final Takeaway
-
-MavenTech has a strong revenue foundation and healthy conversion rates, but its growth is constrained by:
-
-- Heavy reliance on a small number of products  
-- Significant revenue leakage (~$6M)  
-- Inconsistent pricing strategies  
-- Variability in sales execution  
-
-The largest opportunity lies not in increasing pipeline volume, but in **improving conversion efficiency, pricing discipline, and strategic focus on high-value opportunities**.
