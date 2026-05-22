@@ -13,11 +13,11 @@ This project aims to bridge that gap by transforming raw CRM data into actionabl
 
 ---
 
-An interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
-
 Targeted SQL Queries regarding various business questions can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/SQL_CRM_Pipeline_Analysis.sql)
 
 The SQL queries used to inspect and perform quality checks can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/Exploratory%20Data%20Analysis.sql)
+
+An interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
 ---
 
@@ -66,38 +66,47 @@ Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visuali
 
 <img src="images/Manager.png" alt="Flagged" width="750" height="850"/>
 
+
 ## 📈 Sales Trends & Revenue Momentum
 
-Monthly revenue trends show a generally stable performance with periods of fluctuation that highlight both growth opportunities and potential volatility in the pipeline.
+Monthly revenue trends reveal a pattern of **inconsistent performance rather than steady growth**, with total annual revenue of approximately **$9.5M**. Average monthly revenue is estimated at **~$790K**, though actual performance varies significantly due to pronounced peaks and troughs throughout the year.
 
-Revenue demonstrates a pattern of **inconsistent month-to-month performance**, suggesting that while overall annual revenue is strong (~$9.5M), it is not driven by steady growth but rather by **episodic spikes in deal closures**.
+Peak months outperform the average by a substantial margin, often driven by **high-value enterprise deal closures and end-of-period acceleration**, with top-performing months estimated to generate **1.5x–2x the average monthly revenue**. In contrast, lower-performing months fall well below the mean, highlighting **gaps in pipeline coverage and uneven deal distribution**.
 
-These spikes are likely tied to:
-- Large enterprise deals closing  
-- End-of-period sales push behavior  
-- Concentration of high-value product sales  
+This spread between high and low months suggests a **wide revenue range**, indicating that performance is not evenly distributed and is instead dependent on **timing of large deal closures rather than consistent deal flow**. As a result, revenue volatility introduces challenges in **forecast accuracy, capacity planning, and resource allocation**.
 
-Conversely, lower-performing months indicate gaps in:
-- Pipeline consistency  
-- Deal flow distribution  
-- Sales forecasting accuracy  
+### **Key Insights**
 
-**Key Insights:**
+- Average monthly revenue (~$790K) is skewed by **high-performing outlier months**  
+- Peak months generate up to **2x typical revenue**, indicating reliance on large deals  
+- Revenue variability suggests **inconsistent pipeline coverage and deal timing**  
+- Month-to-month fluctuations reduce **forecast reliability and planning precision**  
 
-- Revenue is **not evenly distributed over time**, indicating dependency on specific deal cycles rather than a steady pipeline  
-- Periods of strong performance are not consistently sustained, suggesting **pipeline replenishment challenges**  
-- Variability in monthly revenue may impact **forecast reliability and planning accuracy**  
+Despite this variability, the business maintains strong overall performance, with total revenue exceeding **$9M annually**, indicating that demand and closing capability remain high. However, the inconsistency in how revenue is realized over time points to **execution inefficiencies rather than market limitations**. Additionally, fluctuations may be influenced by **product mix**, where higher-priced offerings contribute disproportionately during peak months.
 
-**Strategic Implications:**
+### **Strategic Implications**
 
-- Improve **pipeline consistency** to smooth revenue across months  
-- Strengthen **forecasting models** to better anticipate revenue fluctuations  
-- Reduce reliance on end-of-period deal spikes by promoting **continuous deal flow**  
-- Align sales incentives to encourage **consistent performance**, not just peak closures  
+- Increase **pipeline coverage ratio** to stabilize monthly revenue output  
+- Improve **deal distribution across time** to reduce reliance on peak periods  
+- Strengthen **forecasting accuracy** by accounting for revenue volatility patterns  
+- Encourage **consistent deal flow** through incentive and pipeline management adjustments  
 
-**Key Takeaway:**
+### **Key Takeaway**
 
-MavenTech’s revenue performance is strong overall, but the lack of consistent monthly growth highlights an opportunity to **stabilize pipeline generation and improve revenue predictability**.
+While MavenTech generates strong annual revenue (~$9.5M), the **wide variance between peak and low months (up to 2x difference)** highlights a critical opportunity to improve **pipeline consistency, deal timing, and revenue predictability**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🌍 Regional Performance Insights (SQL)
 
@@ -113,6 +122,8 @@ This suggests that while total revenue is similar, the **quality of deals varies
 
 **Key takeaway:**  
 Growth should not focus equally across regions—there is a clear opportunity to **scale high-value deal strategies from the East region**.
+
+## 📄 Product Overview
 
 <img src="images/Product.png" alt="Flagged" width="750" height="850"/>
 
