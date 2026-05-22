@@ -9,7 +9,7 @@ Without structured analysis, MavenTech is unable to answer critical business que
 - Which sales agents or products are driving revenue
 - How effectively opportunities are being converted into closed deals
 
-This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency.
+This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of Excel, SQL, and Tableau.
 
 ---
 
