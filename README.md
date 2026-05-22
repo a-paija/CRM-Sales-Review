@@ -43,20 +43,11 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 
 Before analysis, data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
-Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis.
+<img src="images/Issues_log.png" alt="Issue_log" width="750" height="950"/>
 
-<img src="images/Issues_log.png" alt="Issue_log" width="750" height="850"/>
+Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis. Below is an image of the isssue log.
 
 <img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
-
-## 🚫 Handling Missing & Incomplete Data
-
-- Missing/incomplete values identified, flagged, and recorded using pivot tables
-- No imputation performed; original dataset preserved to avoid bias
-- Product/account fields not filled → prevents unsupported categorical assumptions
-- Missing deal values not estimated → protects revenue, AOV, and win rate integrity
-- Records with critical missing fields excluded from sensitive analyses (e.g., revenue)
-- Retained only where impact on accuracy was minimal
 
 ## 📊 Executive Summary
 
