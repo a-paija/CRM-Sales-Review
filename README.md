@@ -87,6 +87,10 @@ Growth should not focus equally across regions—there is a clear opportunity to
 
 ---
 
+<img src="images/Product.png" alt="Flagged" width="750" height="850"/>
+
+Above is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+
 ## 💰 Product Performance & Revenue Concentration
 
 Revenue is heavily concentrated in three products:
