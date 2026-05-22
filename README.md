@@ -66,12 +66,12 @@ Peak months outperform the average by a substantial margin, often driven by **hi
 
 This spread between high and low months suggests a **wide revenue range**, indicating that performance is not evenly distributed and is instead dependent on **timing of large deal closures rather than consistent deal flow**. As a result, revenue volatility introduces challenges in **forecast accuracy, capacity planning, and resource allocation**.
 
-### **Key Takeaway**
+#### **Key Takeaway:**
 
 While MavenTech generates strong annual revenue (~$9.5M), the **wide variance between peak and low months (up to 2x difference)** highlights a critical opportunity to improve **pipeline consistency, deal timing, and revenue predictability**.
 
 
-### **Action**
+#### **Action:**
 
 - Increase **pipeline coverage ratio** to stabilize monthly revenue output  
 - Improve **deal distribution across time** to reduce reliance on peak periods  
