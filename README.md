@@ -60,17 +60,11 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 - Records with critical missing fields excluded from sensitive analyses (e.g., revenue)
 - Retained only where impact on accuracy was minimal
 
-## Executive Summary
+## 📊 Executive Summary
 
-# 📊 MavenTech Sales Analytics Project
+MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline. However, deeper analysis reveals that performance is uneven across regions, highly concentrated in a few products and agents, and significantly impacted by conversion inefficiencies and pricing inconsistencies.
 
----
-
-## 📊 Executive Analysis
-
-This analysis evaluates MavenTech’s sales pipeline to understand revenue performance, pricing effectiveness, and sales execution across products, regions, and sales agents.
-
-MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline. However, deeper analysis reveals that performance is uneven across regions, highly concentrated in a few products, and significantly impacted by conversion inefficiencies and pricing inconsistencies.
+<img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
 
 ---
 
