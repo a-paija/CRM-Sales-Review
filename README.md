@@ -78,18 +78,6 @@ While MavenTech generates strong annual revenue (~$9.5M), the **wide variance be
 - Strengthen **forecasting accuracy** by accounting for revenue volatility patterns  
 - Encourage **consistent deal flow** through incentive and pipeline management adjustments  
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## 🌍 Regional Performance Insights (SQL)
 
 Revenue distribution across regions is relatively balanced, with the **West leading at $3.56M**, followed by the **Central region at $3.32M**, and the **East at $3.08M**.
@@ -107,9 +95,9 @@ Growth should not focus equally across regions—there is a clear opportunity to
 
 ## 📄 Product Overview
 
-<img src="images/Product.png" alt="Flagged" width="750" height="850"/>
+Below is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
-Above is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+<img src="images/Product.png" alt="Flagged" width="750" height="850"/>
 
 ## 💰 Product Performance & Revenue Concentration (Tableau)
 
