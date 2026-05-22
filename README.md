@@ -42,6 +42,7 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 <img src="images/EDB1.png" alt="ED1" width="500" height="450"/>
 
 ---
+
 ## 📊 Data Cleaning (Excel)
 Before analysis, data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
@@ -67,8 +68,6 @@ MavenTech has generated approximately **$9.5M in total revenue**, supported by a
 Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
 <img src="images/Manager.png" alt="Flagged" width="750" height="850"/>
-
----
 
 ## 📈 Sales Trends & Revenue Momentum
 
