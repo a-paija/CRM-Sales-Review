@@ -148,22 +148,28 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 
 Above is snippet of the calculated Agent Sales Performance Scores
 
-A weighted performance model incorporating win rate, deal volume, and revenue reveals that **balanced execution—not just output—is the primary driver of sales success**. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
+A weighted performance model incorporating win rate, deal volume, and revenue. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
 
 Top-performing agents (scores **~0.70–0.84**) consistently combine **strong win rates (0.63–0.70)** with above-average deal volume and revenue contribution. Notably, the highest performer (0.8413) does not have the highest win rate, but instead leads in **sales volume (6.32) and revenue score (8.09)**—reinforcing that performance is driven by a **balanced combination of efficiency and output**.
 
 In contrast, lower-performing agents (scores **~0.25–0.50**) often maintain **comparable win rates (0.55–0.66)** but underperform in either **revenue generation or deal volume**, indicating that activity alone is insufficient without effective deal conversion and value capture.
-
-#### **Key Takeaway**
-
-Sales performance at MavenTech is not limited by win rate, but by the ability to **consistently convert opportunities into high-value revenue**. The most successful agents distinguish themselves through **balanced, efficient execution**, while underperformance is driven by gaps in translating activity into meaningful outcomes.
 
 #### **Action:**
 
 - Shift focus from pure activity metrics to **revenue efficiency and deal quality**  
 - Use top performers as benchmarks for **replicable sales behaviors and strategies**  
 - Identify mid- and low-tier performers with solid win rates but weak revenue as **high-impact coaching opportunities**  
-- Reinforce performance evaluation using **composite scoring models** rather than isolated KPIs  
+- Reinforce performance evaluation using **composite scoring models** rather than isolated KPIs
+
+
+
+
+
+
+
+
+
+
 
 ## 🔗 SQL + Dashboard Integration
 
