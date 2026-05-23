@@ -144,6 +144,8 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 
 ## 🧠 Agent Sales Performance Score (SQL)
 
+<img src="images/Agent_Score.png" alt="Flagged" width="750" height="850"/>
+
 A weighted performance model incorporating win rate, deal volume, and revenue reveals that **balanced execution—not just output—is the primary driver of sales success**. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
 
 Top-performing agents (scores **~0.70–0.84**) consistently combine **strong win rates (0.63–0.70)** with above-average deal volume and revenue contribution. Notably, the highest performer (0.8413) does not have the highest win rate, but instead leads in **sales volume (6.32) and revenue score (8.09)**—reinforcing that performance is driven by a **balanced combination of efficiency and output**.
