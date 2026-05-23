@@ -55,7 +55,7 @@ MavenTech has generated approximately **$9.5M in total revenue**, supported by a
 
 Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
-<img src="images/Manager.png" alt="Flagged" width="750" height="850"/>
+<img src="images/Manager.png" alt="Manger" width="750" height="850"/>
 
 
 ## 📈 Sales Trends & Revenue Momentum
@@ -97,7 +97,7 @@ Growth should not focus equally across regions—there is a clear opportunity to
 
 Below is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
-<img src="images/Product.png" alt="Flagged" width="750" height="850"/>
+<img src="images/Product.png" alt="Product" width="750" height="850"/>
 
 ## 💰 Product Performance & Revenue Concentration (Tableau)
 
@@ -144,7 +144,7 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 
 ## 🧠 Agent Sales Performance Score (SQL)
 
-<img src="images/Agent_Score.png" alt="Flagged" width="750" height="750"/>
+<img src="images/AgentScore.png" alt="Score" width="750" height="750"/>
 
 A weighted performance model incorporating win rate, deal volume, and revenue reveals that **balanced execution—not just output—is the primary driver of sales success**. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
 
