@@ -5,6 +5,41 @@ MavenTech is a company that specializes in selling computer hardware to large bu
 The dataset used in this project consists of CRM records from October 2016 to December 2017, containing detailed information on sales opportunities, including deal stages, product categories, account information, sales ownership, and deal outcomes (Won or Lost).
 
 Without structured analysis, MavenTech is unable to answer critical business questions such as:
+- Where deals are getting stuck in the pipeline  
+- Which sales agents or products are driving revenue  
+- How effectively opportunities are being converted into closed deals  
+
+### **Overall Goal: Improve conversion and scalability of existing opportunities into high-value, profitable deals.**
+
+This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of **Excel, SQL, and Tableau**.
+
+The dashboards provide a high-level view of performance trends, while SQL enables deeper diagnostic analysis:
+
+- Dashboards highlight **where performance varies**  
+- SQL explains **why those differences exist**  
+
+Together, they enable both **monitoring and decision-making**, bridging the gap between reporting and strategy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 📊 Project Background
+
+MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, making it difficult to evaluate sales performance and identify areas for improvement.
+
+The dataset used in this project consists of CRM records from October 2016 to December 2017, containing detailed information on sales opportunities, including deal stages, product categories, account information, sales ownership, and deal outcomes (Won or Lost).
+
+Without structured analysis, MavenTech is unable to answer critical business questions such as:
 - Where deals are getting stuck in the pipeline
 - Which sales agents or products are driving revenue
 - How effectively opportunities are being converted into closed deals
@@ -161,21 +196,44 @@ In contrast, lower-performing agents (scores **~0.25–0.50**) often maintain **
 - Identify mid- and low-tier performers with solid win rates but weak revenue as **high-impact coaching opportunities**  
 - Reinforce performance evaluation using **composite scoring models** rather than isolated KPIs
 
+## 🚀 Executive Summary: Recommendations & Actions
 
+### **1. Improve Revenue Consistency & Forecast Accuracy**
+Revenue volatility—driven by reliance on large, irregular deal closures—creates challenges in planning and predictability.
 
+**Actions:**
+- Increase **pipeline coverage ratio** to stabilize monthly revenue  
+- Improve **deal distribution over time** to reduce end-of-period spikes  
+- Incorporate **historical volatility trends into forecasting models**  
 
+### **2. Close High-Value Conversion Gaps**
+With approximately **$5.9M in lost revenue**, the primary constraint is not demand, but **failure to convert high-value opportunities**.
 
+**Actions:**
+- Prioritize **late-stage deal support and pipeline management**  
+- Identify and remove **conversion bottlenecks in high-revenue products**  
+- Implement targeted strategies to improve **close rates on high-value deals**  
 
+### **3. Reduce Product Concentration Risk**
+Over **83% of revenue** is driven by just three products, increasing dependency and limiting scalability.
 
+**Actions:**
+- Expand focus on **underperforming or mid-tier products**  
+- Diversify revenue streams to reduce reliance on top products  
+- Replicate successful **go-to-market strategies** across broader product lines  
 
+### **4. Strengthen Pricing Discipline**
+Inconsistent discounting practices indicate missed opportunities to maximize margin and reinforce value.
 
+**Actions:**
+- Standardize **discounting guidelines and approval thresholds**  
+- Reinforce **value-based selling**, particularly for discounted products  
+- Align pricing strategy with **product positioning and demand strength**  
 
+### **5. Elevate Sales Execution Through Performance Optimization**
+A **3.4x performance gap** between top and bottom agents highlights inconsistent execution across the team.
 
-## 🔗 SQL + Dashboard Integration
-
-The dashboards provide a high-level view of performance trends, while SQL enables deeper diagnostic analysis.
-
-- Dashboards highlight **where performance varies**  
-- SQL explains **why those differences exist**  
-
-Together, they enable both **monitoring and decision-making**, bridging the gap between reporting and strategy.
+**Actions:**
+- Shift performance evaluation toward **composite metrics (revenue, volume, win rate)**  
+- Use top performers as benchmarks for **replicable sales strategies**  
+- Target coaching for agents with **strong win rates but low revenue output**
