@@ -146,7 +146,7 @@ This indicates inconsistent pricing discipline and potential margin erosion in c
 
 <img src="images/AgentScore.png" alt="Score" width="750" height="750"/>
 
-Above is snippet of the calculated Agent Sales Performance Scores
+Above is snippet of the calculated Agent Sales Performance Scores through SQL.
 
 A weighted performance model incorporating win rate, deal volume, and revenue. Performance scores range from **0.248 to 0.841**, representing a **3.4x gap between top and bottom performers**, highlighting significant variation in execution quality across the team.
 
