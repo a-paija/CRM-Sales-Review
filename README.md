@@ -60,7 +60,7 @@ Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visuali
 
 ## 📈 Sales Trends & Revenue Momentum
 
-Monthly revenue trends reveal a pattern of **inconsistent performance rather than steady growth**, with total annual revenue of approximately **$9.5M**. Average monthly revenue is estimated at **~$790K**, though actual performance varies significantly due to pronounced peaks and troughs throughout the year.
+Monthly revenue trends reveal a pattern of **inconsistent performance rather than steady growth**, with total annual revenue of approximately **$9.5M**. Average total monthly revenue is estimated at **~$790K**, though actual performance varies significantly due to pronounced peaks and troughs throughout the year.
 
 Peak months outperform the average by a substantial margin, often driven by **high-value enterprise deal closures and end-of-period acceleration**, with top-performing months estimated to generate **1.5x–2x the average monthly revenue**. In contrast, lower-performing months fall well below the mean, highlighting **gaps in pipeline coverage and uneven deal distribution**.
 
