@@ -9,7 +9,7 @@ Without structured analysis, MavenTech is unable to answer critical business que
 - Which sales agents or products are driving revenue  
 - How effectively opportunities are being converted into closed deals  
 
-### **Overall Goal: Improve conversion and scalability of existing opportunities into high-value, profitable deals.**
+#### **Overall Goal: Improve the conversion, consistency, and scalability of high-value opportunities to drive predictable and profitable revenue growth.**
 
 This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of **Excel, SQL, and Tableau**.
 
@@ -56,7 +56,7 @@ Before analysis, data quality checks were conducted to ensure accuracy and build
 
 <img src="images/Issues_log.png" alt="Issue_log" width="750" height="950"/>
 
-Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis. Below is an image of the isssue log.
+Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis. Below is an image of the flagged data found during the data cleaning phase.
 
 <img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
 
@@ -74,11 +74,13 @@ Together, these findings point to a core issue:
 
 > **MavenTech’s primary constraint is not pipeline generation, but the ability to consistently convert, distribute, and scale high-value opportunities efficiently.**
 
+Addressing these gaps represents a significant opportunity to unlock near-term revenue gains while improving long-term scalability and predictability.
+
 ---
 
-Below is a the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+Below is the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
-<img src="images/Manager.png" alt="Manger" width="750" height="850"/>
+<img src="images/Manager.png" alt="Manager" width="750" height="850"/>
 
 ## 🟨 Sales Trends & Revenue Momentum
 
