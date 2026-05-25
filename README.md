@@ -6,8 +6,9 @@ The dataset used in this project consists of CRM records from October 2016 to De
 
 Without structured analysis, MavenTech is unable to answer critical business questions such as:
 - Where deals are getting stuck in the pipeline  
-- Which sales agents or products are driving revenue  
-- How effectively opportunities are being converted into closed deals  
+- Which sales agents or products or regions are driving (or limiting) revenue  
+- How effectively opportunities are being converted into closed deals
+- Where revenue leakage is occurring
 
 #### **Overall Goal: Improve the conversion, consistency, and scalability of high-value opportunities to drive predictable and profitable revenue growth.**
 
