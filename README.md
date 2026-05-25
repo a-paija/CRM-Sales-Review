@@ -63,6 +63,8 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 ## 🟩 Executive Summary
 
+Below is the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+
 MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline at a surface level. However, deeper analysis reveals that performance is **inconsistent, highly concentrated, and operationally inefficient in key areas of the sales process**.
 
 Revenue generation is heavily dependent on **irregular high-value deal closures**, resulting in significant monthly volatility and limiting forecast reliability. At the same time, over **83% of revenue is concentrated in just three products**, increasing dependency risk and constraining scalable growth.
@@ -78,8 +80,6 @@ Together, these findings point to a core issue:
 Addressing these gaps represents a significant opportunity to unlock near-term revenue gains while improving long-term scalability and predictability.
 
 ---
-
-Below is the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
 <img src="images/Manager.png" alt="Manager" width="750" height="850"/>
 
