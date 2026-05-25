@@ -62,7 +62,7 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 ## 🟩 Executive Summary
 
-MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline at a surface level. However, deeper analysis reveals that performance is **structurally inconsistent, highly concentrated, and operationally inefficient in key areas of the sales process**.
+MavenTech has generated approximately **$9.5M in total revenue**, supported by a solid **63% overall win rate**, indicating a generally healthy pipeline at a surface level. However, deeper analysis reveals that performance is **inconsistent, highly concentrated, and operationally inefficient in key areas of the sales process**.
 
 Revenue generation is heavily dependent on **irregular high-value deal closures**, resulting in significant monthly volatility and limiting forecast reliability. At the same time, over **83% of revenue is concentrated in just three products**, increasing dependency risk and constraining scalable growth.
 
@@ -90,7 +90,7 @@ Peak months outperform the average by a substantial margin, often driven by **hi
 
 This spread between high and low months indicates that revenue performance is **heavily dependent on the timing of large deal closures rather than consistent deal flow**, introducing volatility that impacts **forecast accuracy, capacity planning, and resource allocation**.
 
-#### **Insights:**
+#### **Business Insights:**
 Revenue generation is structurally **volatile and timing-dependent**, with performance driven more by **irregular high-value deal closures than by a stable and repeatable pipeline engine**, limiting predictability and scalability.
 
 
@@ -107,7 +107,7 @@ However, each region demonstrates a distinct performance profile:
 
 This indicates that while total revenue contribution is similar, **deal quality and sales efficiency vary significantly by region**, with the East demonstrating stronger monetization per opportunity.
 
-#### **Insights:**
+#### **Business Insights:**
 Regional performance is not uniform—**revenue quality differs materially**, with the East operating as a **high-value, lower-volume model**, while other regions rely more on scale, signaling an opportunity to rebalance toward higher-value deal strategies.
 
 
@@ -132,7 +132,7 @@ Together, these products account for approximately **83% of total revenue**, ind
 
 However, this level of concentration introduces **dependency risk**, as overall business performance is disproportionately tied to a small subset of offerings, limiting diversification and resilience.
 
-#### **Insights:**
+#### **Business Insights:**
 Revenue concentration reflects **strong top-product performance but weak portfolio balance**, making growth highly dependent on a limited number of products rather than a diversified and scalable product mix.
 
 
@@ -149,7 +149,7 @@ This indicates that **demand and pipeline generation are not the primary constra
 
 Even a modest **10% improvement in conversion rates** across these products could yield an estimated **$600K+ in incremental revenue**, highlighting the magnitude of this inefficiency.
 
-#### **Insights:**
+#### **Business Insights:**
 The primary growth constraint is **conversion inefficiency at the high-value end of the pipeline**, where the business is already strongest, making this the **highest-impact lever for near-term revenue expansion**.
 
 
@@ -166,7 +166,7 @@ Pricing analysis reveals clear segmentation across product tiers:
 
 This suggests inconsistent pricing discipline, where discounting is selectively applied but not always strategically justified.
 
-#### **Insights:**
+#### **Business Insights:**
 While pricing power exists in premium segments, **inconsistent discounting practices elsewhere indicate reliance on price reductions to close deals**, potentially eroding margins and masking underlying sales execution gaps.
 
 ## 🟥 Agent Sales Performance Score (SQL)
@@ -179,20 +179,17 @@ Top-performing agents (scores **~0.70–0.84**) consistently combine **strong wi
 
 In contrast, lower-performing agents (scores **~0.25–0.50**) often exhibit **comparable win rates** but underperform in **deal volume or revenue**, suggesting that activity alone is insufficient without effective value capture.
 
-#### **Insights:**
+#### **Business Insights:**
 Performance variation is driven less by win rate differences and more by **inconsistent ability to generate and convert high-value opportunities**, highlighting execution gaps in **revenue productivity, not just sales activity**.
 
 ## 🟩 Strategic Recommendations & Actions
 
-### **1. Improve Revenue Consistency & Forecast Accuracy**
-Revenue volatility—driven by reliance on large, irregular deal closures—limits predictability and weakens operational planning.
+The following recommendations are prioritized based on potential revenue impact and operational importance.
 
-**Actions:**
-- Increase **pipeline coverage ratio** to stabilize monthly revenue output  
-- Improve **deal distribution across time** to reduce end-of-period concentration  
-- Incorporate **historical volatility patterns into forecasting models**  
+### **1. Close High-Value Conversion Gaps**
+**Impact:** High  
+**Addresses:** ~$5.9M in unrealized revenue due to poor high-value conversion  
 
-### **2. Close High-Value Conversion Gaps**
 With approximately **$5.9M in unrealized revenue**, the primary growth constraint is **ineffective conversion of high-value opportunities**, not demand generation.
 
 **Actions:**
@@ -200,15 +197,32 @@ With approximately **$5.9M in unrealized revenue**, the primary growth constrain
 - Identify and eliminate **conversion bottlenecks in top-performing products**  
 - Focus on improving **close rates for high-value, late-stage deals**  
 
-### **3. Reduce Product Concentration Risk**
-Over **83% of revenue** is driven by three products, increasing dependency and limiting long-term scalability.
+### **2. Elevate Sales Execution Through Performance Optimization**
+**Impact:** High  
+**Addresses:** 3.4x performance gap across sales agents  
+
+A **3.4x performance gap across agents** highlights inconsistent execution and uneven revenue productivity.
 
 **Actions:**
-- Expand focus on **mid-tier and underutilized products**  
-- Diversify revenue streams to reduce reliance on top performers  
-- Replicate successful **go-to-market strategies across a broader product set**  
+- Shift performance evaluation toward **composite metrics (revenue, volume, win rate)**  
+- Use top performers to define **replicable best practices and playbooks**  
+- Target coaching for agents with **strong win rates but low revenue output**  
+
+### **3. Improve Revenue Consistency & Forecast Accuracy**
+**Impact:** High  
+**Addresses:** Revenue volatility driven by irregular high-value deal timing  
+
+Revenue volatility—driven by reliance on large, irregular deal closures—limits predictability and weakens operational planning.
+
+**Actions:**
+- Increase **pipeline coverage ratio** to stabilize monthly revenue output  
+- Improve **deal distribution across time** to reduce end-of-period concentration  
+- Incorporate **historical volatility patterns into forecasting models**  
 
 ### **4. Strengthen Pricing Discipline**
+**Impact:** Medium  
+**Addresses:** Margin erosion from inconsistent discounting practices  
+
 Inconsistent discounting behavior suggests missed opportunities to maximize margin and reinforce product value.
 
 **Actions:**
@@ -216,10 +230,13 @@ Inconsistent discounting behavior suggests missed opportunities to maximize marg
 - Reinforce **value-based selling practices across sales teams**  
 - Align pricing strategy with **product positioning and demand strength**  
 
-### **5. Elevate Sales Execution Through Performance Optimization**
-A **3.4x performance gap across agents** highlights inconsistent execution and uneven revenue productivity.
+### **5. Reduce Product Concentration Risk**
+**Impact:** Medium  
+**Addresses:** Over-reliance on top 3 products driving ~83% of revenue  
+
+Over **83% of revenue** is driven by three products, increasing dependency and limiting long-term scalability.
 
 **Actions:**
-- Shift performance evaluation toward **composite metrics (revenue, volume, win rate)**  
-- Use top performers to define **replicable best practices and playbooks**  
-- Target coaching for agents with **strong win rates but low revenue output**  
+- Expand focus on **mid-tier and underutilized products**  
+- Diversify revenue streams to reduce reliance on top performers  
+- Replicate successful **go-to-market strategies across a broader product set**  
