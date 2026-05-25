@@ -110,6 +110,23 @@ This indicates that while total revenue contribution is similar, **deal quality 
 #### **Business Insights:**
 Regional performance is not uniform—**revenue quality differs materially**, with the East operating as a **high-value, lower-volume model**, while other regions rely more on scale, signaling an opportunity to rebalance toward higher-value deal strategies.
 
+<details>
+<summary>View SQL Query</summary>
+
+```sql
+SELECT st.regional_office,
+    SUM(sp.close_value) AS total_revenue,
+    ROUND(AVG(sp.close_value), 2) AS avg_deal_size,
+    COUNT(*) AS total_won_deals
+FROM sales_pipeline sp
+JOIN sales_teams st 
+    ON sp.sales_agent = st.sales_agent
+WHERE sp.deal_stage = 'Won'
+GROUP BY st.regional_office
+ORDER BY total_revenue DESC;
+```
+</details>
+
 
 
 ## 🟨 Product Overview
@@ -152,7 +169,21 @@ Even a modest **10% improvement in conversion rates** across these products coul
 #### **Business Insights:**
 The primary growth constraint is **conversion inefficiency at the high-value end of the pipeline**, where the business is already strongest, making this the **highest-impact lever for near-term revenue expansion**.
 
+<details>
+<summary>View SQL Query</summary>
 
+```sql
+SELECT sp.product,
+    COUNT(*) AS lost_deals,
+    SUM(p.sales_price) AS potential_revenue_lost
+FROM sales_pipeline sp
+JOIN products p 
+    ON sp.product = p.product
+WHERE sp.deal_stage = 'Lost'
+GROUP BY sp.product
+ORDER BY potential_revenue_lost DESC;
+```
+</detail>
 
 ## 🟧 Pricing Strategy & Discounting Behavior (SQL)
 
@@ -181,6 +212,74 @@ In contrast, lower-performing agents (scores **~0.25–0.50**) often exhibit **c
 
 #### **Business Insights:**
 Performance variation is driven less by win rate differences and more by **inconsistent ability to generate and convert high-value opportunities**, highlighting execution gaps in **revenue productivity, not just sales activity**.
+
+<details>
+<summary>View SQL Query</summary>
+
+```sql
+WITH base AS (
+    SELECT sp.sales_agent,
+        COUNT(*) AS total_deals,
+        SUM(
+            CASE
+                WHEN sp.deal_stage = 'Won' THEN 1
+                ELSE 0
+            END
+        ) AS wins,
+        SUM(
+            CASE
+                WHEN sp.deal_stage = 'Won' THEN sp.close_value
+                ELSE 0
+            END
+        ) AS total_revenue
+    FROM sales_pipeline sp
+    WHERE sp.deal_stage IN ('Won', 'Lost')
+    GROUP BY sp.sales_agent
+),
+metrics AS (
+    SELECT sales_agent,
+        -- core metrics
+        wins * 1.0 / total_deals AS win_rate,
+        LOG(total_deals + 1) AS sales_volume_score,
+        LOG(
+            (total_revenue / NULLIF(wins, 0)) + 1
+        ) AS revenue_score
+    FROM base
+),
+scaled AS (
+    SELECT *,
+        -- normalize win rate
+        (win_rate - MIN(win_rate) OVER()) / NULLIF((MAX(win_rate) OVER() - MIN(win_rate) OVER()), 0) AS norm_win_rate,
+        -- normalize volume
+        (
+            sales_volume_score - MIN(sales_volume_score) OVER()
+        ) / NULLIF(
+            (
+                MAX(sales_volume_score) OVER() - MIN(sales_volume_score) OVER()
+            ),
+            0
+        ) AS norm_volume,
+        -- normalize revenue efficiency
+        (revenue_score - MIN(revenue_score) OVER()) / NULLIF(
+            (
+                MAX(revenue_score) OVER() - MIN(revenue_score) OVER()
+            ),
+            0
+        ) AS norm_revenue_score
+    FROM metrics
+)
+SELECT sales_agent,
+    ROUND(
+        0.25 * norm_win_rate + 0.25 * norm_volume + 0.50 * norm_revenue_score,
+        4
+    ) AS performance_score,
+    ROUND(win_rate, 4) AS win_rate,
+    ROUND(sales_volume_score, 4) AS sales_volume_score,
+    ROUND(revenue_score, 4) AS revenue_score
+FROM scaled
+ORDER BY performance_score DESC;
+```
+</details>
 
 ## 🟩 Strategic Recommendations & Actions
 
