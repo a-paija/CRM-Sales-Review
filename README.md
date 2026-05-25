@@ -112,7 +112,7 @@ This indicates that while total revenue contribution is similar, **deal quality 
 Regional performance is not uniform—**revenue quality differs materially**, with the East operating as a **high-value, lower-volume model**, while other regions rely more on scale, signaling an opportunity to rebalance toward higher-value deal strategies.
 
 <details>
-<summary>View SQL Query</summary>
+<summary>🟩 View SQL Query</summary>
 
 ```sql
 SELECT st.regional_office,
@@ -173,7 +173,7 @@ Even a modest **10% improvement in conversion rates** across these products coul
 The primary growth constraint is **conversion inefficiency at the high-value end of the pipeline**, where the business is already strongest, making this the **highest-impact lever for near-term revenue expansion**.
 
 <details>
-<summary>View SQL Query</summary>
+<summary>🟩 View SQL Query</summary>
 
 ```sql
 SELECT sp.product,
@@ -219,7 +219,7 @@ In contrast, lower-performing agents (scores **~0.25–0.50**) often exhibit **c
 Performance variation is driven less by win rate differences and more by **inconsistent ability to generate and convert high-value opportunities**, highlighting execution gaps in **revenue productivity, not just sales activity**.
 
 <details>
-<summary>View SQL Query</summary>
+<summary>🟩 View SQL Query</summary>
 
 ```sql
 WITH base AS (
