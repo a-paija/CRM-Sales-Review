@@ -125,6 +125,8 @@ WHERE sp.deal_stage = 'Won'
 GROUP BY st.regional_office
 ORDER BY total_revenue DESC;
 ```
+Aggregates revenue and deal metrics by region to compare geographic performance and opportunity concentration.
+
 </details>
 
 
@@ -183,7 +185,9 @@ WHERE sp.deal_stage = 'Lost'
 GROUP BY sp.product
 ORDER BY potential_revenue_lost DESC;
 ```
-</detail>
+Quantifies missed revenue by product to identify where the largest financial losses occur.
+
+</details>
 
 ## 🟧 Pricing Strategy & Discounting Behavior (SQL)
 
@@ -279,6 +283,8 @@ SELECT sales_agent,
 FROM scaled
 ORDER BY performance_score DESC;
 ```
+Builds a normalized composite score combining win rate, deal volume, and revenue efficiency to rank overall performance.
+
 </details>
 
 ## 🟩 Strategic Recommendations & Actions
