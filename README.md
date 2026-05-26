@@ -14,13 +14,6 @@ Without structured analysis, MavenTech is unable to answer critical business que
 
 This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of **Excel, SQL, and Tableau**.
 
-The dashboards provide a high-level view of performance trends, while SQL enables deeper diagnostic analysis:
-
-- Dashboards highlight **where performance varies**  
-- SQL explains **why those differences exist**  
-
-Together, they enable both **monitoring and decision-making**, bridging the gap between reporting and strategy.
-
 > **Note:** Detailed recommendations and implementation actions are consolidated in the final section of this report.
 
 ---
