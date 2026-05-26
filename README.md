@@ -33,18 +33,6 @@ An interactive Tableau Dashboard can be found [here](https://public.tableau.com/
 
 ---
 
-## 🟦 Business Objective and Data Structure
-
-The primary objective of this analysis is to evaluate the effectiveness of MavenTech’s sales pipeline and identify opportunities to improve conversion rates, revenue generation, and sales efficiency.
-
-Specifically, this project seeks to:
-
-1. Assess pipeline health and identify bottlenecks
-2. Measure win rate and conversion performance
-3. Analyze revenue contribution across agents, managers, and products
-4. Evaluate sales cycle efficiency
-5. Identify trends in deal activity over time
-
 ## 🟦 Data Structure & Initial Checks
 
 MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
