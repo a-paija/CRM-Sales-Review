@@ -36,6 +36,7 @@ MavenTech's database structure as seen below consists of four tables: sales_pipe
 
 Before analysis, data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
+
 <img src="images/Issues_log.png" alt="Issue_log" width="750" height="950"/>
 
 Excel was then used to clean and prepare the dataset for analysis in SQL. This included handling missing values, standardizing categorical fields such as deal stages, and ensuring consistent formats for dates and numerical values. These steps ensured the data could be efficiently imported into SQL and enabled accurate querying and analysis. Below is an image of the flagged data found during the data cleaning phase.
@@ -115,7 +116,7 @@ Aggregates revenue and deal metrics by region to compare geographic performance 
 
 ## 🟨 Product Overview
 
-Below is an example of the type of work you can expect to get from me for dashboards with proper summaries, insights, and recommendations
+Below is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
 <img src="images/Product.png" alt="Product" width="750" height="850"/>
 
