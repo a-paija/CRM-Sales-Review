@@ -115,7 +115,7 @@ Aggregates revenue and deal metrics by region to compare geographic performance 
 
 ## 🟨 Product Overview
 
-Below is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
+Below is an example of the type of work you can expect to get from me for dashboards with proper summaries, insights, and recommendations
 
 <img src="images/Product.png" alt="Product" width="750" height="850"/>
 
