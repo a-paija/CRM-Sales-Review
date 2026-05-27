@@ -2,7 +2,7 @@
 
 MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, making it difficult to evaluate sales performance and identify areas for improvement.
 
-The dataset used in this project consists of CRM records from October 2016 to December 2017, containing detailed information on sales opportunities, including deal stages, product categories, account information, sales ownership, and deal outcomes (Won or Lost).
+
 
 Without structured analysis, MavenTech is unable to answer critical business questions such as:
 - Where deals are getting stuck in the pipeline  
@@ -12,7 +12,7 @@ Without structured analysis, MavenTech is unable to answer critical business que
 
 #### **Overall Goal: Improve the conversion, consistency, and scalability of high-value opportunities to drive predictable and profitable revenue growth.**
 
-This project aims to bridge that gap by transforming raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of **Excel, SQL, and Tableau**.
+This project transforms raw CRM data into actionable insights that provide clarity into pipeline health, sales performance, and overall business efficiency through the use of **Excel, SQL, and Tableau**.
 
 > **Note:** Detailed recommendations and implementation actions are consolidated in the final section of this report.
 
