@@ -18,6 +18,8 @@ This project transforms raw CRM data into actionable insights that provide clari
 
 ---
 
+An official report for stakeholders and business leaders can be found [here](https://github.com/a-paija/CRM-Sales-Pipeline-Analysis/blob/main/MavenTech%20Report.pdf)
+
 Targeted SQL Queries regarding various business questions can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/SQL_CRM_Pipeline_Analysis.sql)
 
 The SQL queries used to inspect and perform quality checks can be found [here](https://github.com/a-paija/CRM-Sales-Opportunities/blob/main/Exploratory%20Data%20Analysis.sql)
